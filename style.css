@@ -5,7 +5,6 @@
 }
 .hero {
     display: flex;
-    
     padding-top: 24px;
     background-color: #1F2937;
 }
@@ -27,8 +26,17 @@ ul {
 .left , .right {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .links {
     display: flex;
     color: #e5e7eb;
+}
+.layer1container {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
