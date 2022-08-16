@@ -41,7 +41,13 @@ ul {
     align-items: center;
     padding: 24px;
 }
-.layer2 {
+.layer2column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.layer2row {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,6 +66,8 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 150px;
+    font-size: 18px;
 }
 .infoheader {
     display: flex;
@@ -71,4 +79,21 @@ ul {
     font-weight: 900;
     color: #1F2937;
     margin: 24px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    background-color: #e5e7eb;
+}
+.qtext {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 2px;
+}
+.qauthor {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
 }
