@@ -16,6 +16,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+    margin-right: 24px;
 }
 ul {
     display: flex;
@@ -96,4 +97,9 @@ ul {
     font-size: 24px;
     font-weight: 900;
     text-align: right;
+}
+.image {
+    display: flex;
+    align-items: flex-end;
+    width: 50vw;
 }
